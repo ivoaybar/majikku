@@ -1,0 +1,151 @@
+$montserrat: "Montserrat", sans-serif;
+$font400: 400;
+$size20: 20;
+$padding: 10px;
+$margin: 15px;
+$width: 50px;
+$height: 50px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffccee;
+}
+.navbar {
+    justify-content: center;
+}
+/* contenido index*/
+#navbarNavAltMarkup {
+    justify-content: center;
+        .navbar-nav{
+            text-decoration: none;
+            font-family: $montserrat;
+            font-weight: $font400;
+            font-size: $size20;
+            padding: $padding;
+        }
+}
+.rowCarousel {
+    justify-content: center;
+} 
+.paddingTb {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+.logos {
+    @include sizes(50px, 50px);
+}
+/* fin contenido index */
+/* contenido productos */
+.hDos {
+    text-align: center;
+    font-family: $montserrat;
+    font-weight:$font400 +100;
+    font-size: $size20 *3;
+    text-align: center;
+    padding: $padding +5;
+    margin: $margin;
+    background-color: #d09eff;
+        .productosFlex {
+            padding: $padding +5;
+            display: flex;
+            justify-content: space-around;
+        }
+} 
+/* fin contenido product */
+/*inicio etiquetas tabla de talles*/
+.talles {
+    display: inline;
+    position: relative;
+    left: 350px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 50px;
+    color: #9b6cc4;
+}
+.tituloTalles {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 15px;
+    color: #6295a1;
+}
+.tablaTalles {
+    display: inline;
+    position: relative;
+    left: 250px;
+}
+/*fin etiquetas para tabla de talles*/
+/*inicio etiquetas para somos majikku y contacto*/
+h1 {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 30px;
+    color: #6295a1;
+}
+/*fin etiquetas para somos majikku y contacto*/
+/*inicio etiquetas para somos majikku*/
+.somosMajikku {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: 75px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: #6295a1;
+}
+.hTres {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #9b6cc4;
+    padding: 15px;
+    margin: 25px;
+    border: dashed 10px violet;
+}
+/*fin etiquetas para somos majikku*/
+/*incio etiquetas para contacto*/
+.input {
+    display: inline;
+    position: relative;
+    left: 375px;
+    bottom: 150px;
+    width: 200px;
+    height: 30px;
+}
+.mensaje {
+    display: inline;
+    position: relative;
+    left: -100px;
+    bottom: -50px;
+    width: 300px;
+    height: 150px;
+}
+.enviarMensaje {
+    display: inline;
+    position: relative;
+    left: -360px;
+    bottom: -75px;
+}
+.ubicacion {
+    text-align: center;
+    margin: 50px;
+}
+.mapa {
+    display: inline;
+    position: relative;
+    left: 350px;
+    bottom: 75px;
+}
+/*fin etiquetas para contacto*/
