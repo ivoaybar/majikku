@@ -7219,26 +7219,28 @@ body {
 
 /* fin contenido index */
 /* contenido productos */
-.hDos {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 60;
-  text-align: center;
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30;
   padding: 15px;
-  margin: 15px;
-  background-color: #d09eff; }
-  .hDos .productosFlex {
-    padding: 15px;
-    display: flex;
-    justify-content: space-around; }
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #d09eff;
+  color: #6295a1;
+  text-align: center; }
+
+.productosFlex {
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-around; }
 
 /* fin contenido product */
 /*inicio etiquetas tabla de talles*/
 .talles {
   display: inline;
   position: relative;
-  left: 350px;
+  left: 650px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -7256,7 +7258,8 @@ body {
 .tablaTalles {
   display: inline;
   position: relative;
-  left: 250px; }
+  left: 550px;
+  padding-bottom: 25px; }
 
 /*fin etiquetas para tabla de talles*/
 /*inicio etiquetas para somos majikku y contacto*/
@@ -7294,7 +7297,7 @@ h1 {
 .input {
   display: inline;
   position: relative;
-  left: 375px;
+  left: 650px;
   bottom: 150px;
   width: 200px;
   height: 30px; }
@@ -7302,7 +7305,7 @@ h1 {
 .mensaje {
   display: inline;
   position: relative;
-  left: -100px;
+  left: 180px;
   bottom: -50px;
   width: 300px;
   height: 150px; }
@@ -7310,7 +7313,7 @@ h1 {
 .enviarMensaje {
   display: inline;
   position: relative;
-  left: -360px;
+  left: -100px;
   bottom: -75px; }
 
 .ubicacion {
@@ -7320,7 +7323,7 @@ h1 {
 .mapa {
   display: inline;
   position: relative;
-  left: 350px;
+  left: 650px;
   bottom: 75px; }
 
 /*fin etiquetas para contacto*/
