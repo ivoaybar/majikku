@@ -1,0 +1,21 @@
+/* general */ 
+.container-fluid {
+    padding: 0px;
+}
+.bg-light {
+    background: linear-gradient(to right, #c180ff, #ffccee, #c180ff) !important;
+}
+body {
+    background: linear-gradient(to bottom, #404040, #808080, #404040);
+}
+footer {
+    background: linear-gradient(to right, #c180ff, #ffccee, #c180ff)
+}
+.navbar-nav {
+    transition: all 2s;
+}
+.navbar-nav:hover {
+    transform: translateY(-10px);
+}
+/* first mobile */
+

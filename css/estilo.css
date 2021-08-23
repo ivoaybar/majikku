@@ -7185,3 +7185,29 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+/* general */
+
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  padding: 0px; }
+
+.bg-light {
+  background: linear-gradient(to right, #c180ff, #ffccee, #c180ff) !important; }
+
+body {
+  background: linear-gradient(to bottom, #404040, #808080, #404040); }
+
+footer {
+  background: linear-gradient(to right, #c180ff, #ffccee, #c180ff); }
+
+.navbar-nav {
+  transition: all 2s; }
+
+.navbar-nav:hover {
+  transform: translateY(-10px); }
+
+/* first mobile */
