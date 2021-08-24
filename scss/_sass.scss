@@ -1,19 +1,18 @@
+/* first mobile */
 /* general */ 
 $montserrat: "Montserrat", sans-serif;
 $font400: 400;
-$size20: 20;
+$size20: 20px;
 $padding: 10px;
 $margin: 15px;
 $width: 50px;
 $height: 50px;
-header {
-    width: 100%;
-}
+
 .bg-light {
-    background: linear-gradient(to right, #c180ff, #ffccee, #c180ff) !important;
+    background:linear-gradient(to right, #c180ff, #ffccee, #c180ff) !important;
 }
 body {
-    background: linear-gradient(to bottom, #c180ff,#ffccee , #c180ff);
+    background-color:#c180ff ;
 }
 footer {
     background: linear-gradient(to right, #c180ff, #ffccee, #c180ff)
@@ -37,37 +36,121 @@ footer {
             padding: $padding;
         }
 }
-header {
-
-}
-/* first mobile */
+/* fin general */
+/* inicio */
 .padding {
     padding-top: 25px;
 }
 .sectionWh {
     width: 200px;
     height: 300px;
-    display: inline;
     position: relative;
     left: 75px;
 }
-.iconos {
-    width: 25px;
-    height: 25px;
+.vestidos {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-image: url(../assets/img/vestidos.jpg);
+
 }
-.logo {
-    width: $width +25;
-    height: $height -5;
+h3 {
+    font-family: $montserrat;
+    color: white;
+    text-align: center;
 }
 .logoPrincipal {
     width: $width +50;
     height: $height;
+    transition: 2s;
+}
+.logoPrincipal:hover {
+    transform: scale(2);
 }
 img .rowCarousel {
     justify-content: center;
 }
-h3 {
+h4 {
+    font-family: $montserrat;
+    font-size: 15px; 
+    padding:0px;
+    text-align: center;
+    color: black;
+}
+.iconos , .gmail{
+    width: 25px;
+    height: 25px;
+}
+.iconos  {
     display: inline;
-    position:absolute;
-    left: 75px;
+    position: relative;
+    bottom: 5px;
+    left: 145px;
+    transition:1s;
+}
+.iconos:hover {
+    transform: rotate(360deg);
+}
+.logo {
+    width: 100px;
+    height: 50px;
+    display: inline;
+    position: relative;
+    left:125px;
+    transition:1s;
+}
+.logo:hover {
+    transform: rotate(360deg);
+}
+.gmail {
+    display: inline;
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+    transition:1s;
+}
+.gmail:hover {
+    transform: rotate(360deg);
+}
+h5 {
+    font-family: $montserrat;
+    font-size: 10px; 
+    padding:10px;
+    color:black;
+    text-align: center;
+}
+/* fin inicio */
+/* productos */
+h2 {
+    font-family: $montserrat;
+    font-size: $size20;
+    text-align: center;
+    padding: 10px;
+    background:#ffccee;
+}
+.productos {
+    width: 110px;
+    height: 110px;
+    display: inline;
+    padding: 10px;
+}
+/* fin productos */
+/* tabla de talles */ 
+table {
+    display: flex;
+    justify-content: center;
+}
+/* fin tabla de talles */ 
+/* somos majikku */ 
+/* fin somos majikku */ 
+h1 {
+    font-family: $montserrat;
+    font-size: 30px;
+    text-align: center;
+    padding: $padding;
+}
+.hTres {
+    font-size: $size20;
+    padding: $size20;
+    border: dashed 5px #ffabd6;
 }
