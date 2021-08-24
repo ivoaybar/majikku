@@ -1,12 +1,19 @@
 /* general */ 
-.container-fluid {
-    padding: 0px;
+$montserrat: "Montserrat", sans-serif;
+$font400: 400;
+$size20: 20;
+$padding: 10px;
+$margin: 15px;
+$width: 50px;
+$height: 50px;
+header {
+    width: 100%;
 }
 .bg-light {
     background: linear-gradient(to right, #c180ff, #ffccee, #c180ff) !important;
 }
 body {
-    background: linear-gradient(to bottom, #404040, #808080, #404040);
+    background: linear-gradient(to bottom, #c180ff,#ffccee , #c180ff);
 }
 footer {
     background: linear-gradient(to right, #c180ff, #ffccee, #c180ff)
@@ -17,5 +24,50 @@ footer {
 .navbar-nav:hover {
     transform: translateY(-10px);
 }
-/* first mobile */
+.navbar {
+    justify-content: center;
+}
+#navbarNavAltMarkup {
+    justify-content: center;
+        .navbar-nav{
+            text-decoration: none;
+            font-family: $montserrat;
+            font-weight: $font400;
+            font-size: $size20;
+            padding: $padding;
+        }
+}
+header {
 
+}
+/* first mobile */
+.padding {
+    padding-top: 25px;
+}
+.sectionWh {
+    width: 200px;
+    height: 300px;
+    display: inline;
+    position: relative;
+    left: 75px;
+}
+.iconos {
+    width: 25px;
+    height: 25px;
+}
+.logo {
+    width: $width +25;
+    height: $height -5;
+}
+.logoPrincipal {
+    width: $width +50;
+    height: $height;
+}
+img .rowCarousel {
+    justify-content: center;
+}
+h3 {
+    display: inline;
+    position:absolute;
+    left: 75px;
+}
